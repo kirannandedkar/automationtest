@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="ProteriaWeb.dll" fullname="C:/Users/ashaukat/source/repos/ProteriaWeb/ProteriaWeb/bin/Debug/ProteriaWeb.dll" testcasecount="3" result="Failed" start-time="2018-06-08 19:35:44Z" end-time="2018-06-08 19:36:07Z" duration="22.910418" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="3" random-seed="892485206">
+  <command-line><![CDATA[NUnit.Framework-3.10.1\bin\net40\nunitlite-runner.exe  C:\Users\ashaukat\source\repos\ProteriaWeb\ProteriaWeb\bin\Debug\ProteriaWeb.dll]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1004" name="ProteriaWeb.dll" fullname="C:/Users/ashaukat/source/repos/ProteriaWeb/ProteriaWeb/bin/Debug/ProteriaWeb.dll" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-06-08 19:35:44Z" end-time="2018-06-08 19:36:07Z" duration="22.910418" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299" platform="Win32NT" cwd="C:\Users\ashaukat\source\repos\ProteriaWeb" machine-name="CRLHL-SHAUKADE1" user="ashaukat" user-domain="CONTOURSOFTWARE" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Users\ashaukat\source\repos\ProteriaWeb" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="20628" />
+      <property name="_APPDOMAIN" value="nunitlite-runner.exe" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1005" name="ProteriaWeb" fullname="ProteriaWeb" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-06-08 19:35:44Z" end-time="2018-06-08 19:36:07Z" duration="22.888099" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1000" name="ProteriaLogin" fullname="ProteriaWeb.ProteriaLogin" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-06-08 19:35:44Z" end-time="2018-06-08 19:36:07Z" duration="22.878959" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1001" name="login_User" fullname="ProteriaWeb.ProteriaLogin.login_User" methodname="login_User" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="2002502609" result="Passed" start-time="2018-06-08 19:35:48Z" end-time="2018-06-08 19:35:59Z" duration="10.409216" asserts="1">
+          <properties>
+            <property name="Order" value="1" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="Post_Nord" fullname="ProteriaWeb.ProteriaLogin.Post_Nord" methodname="Post_Nord" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="763460748" result="Failed" label="Error" start-time="2018-06-08 19:35:59Z" end-time="2018-06-08 19:36:05Z" duration="6.402209" asserts="1">
+          <properties>
+            <property name="Order" value="2" />
+          </properties>
+          <failure>
+            <message><![CDATA[OpenQA.Selenium.ElementNotVisibleException : element not visible
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)]]></message>
+            <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)
+   at ProteriaWeb.ProteriaLogin.Post_Nord() in C:\Users\ashaukat\source\repos\ProteriaWeb\ProteriaWeb\ProteriaLogin.cs:line 57]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1003" name="logout_User" fullname="ProteriaWeb.ProteriaLogin.logout_User" methodname="logout_User" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="430746224" result="Passed" start-time="2018-06-08 19:36:05Z" end-time="2018-06-08 19:36:07Z" duration="1.861368" asserts="1">
+          <properties>
+            <property name="Order" value="3" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="ProteriaWeb.dll" fullname="D:/Others/Remote_Projects/PoteriaWeb/ProteriaWeb_July29/ProteriaWeb/ProteriaWeb/bin/Debug/ProteriaWeb.dll" testcasecount="5" result="Passed" start-time="2018-07-30 10:38:44Z" end-time="2018-07-30 10:39:48Z" duration="63.924042" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="2" random-seed="569692896">
+  <command-line><![CDATA["D:\Others\Remote_Projects\PoteriaWeb\ProteriaWeb_July29\ProteriaWeb\NUnit.Framework-3.10.1\bin\net40\nunitlite-runner.exe" D:\Others\Remote_Projects\PoteriaWeb\ProteriaWeb_July29\ProteriaWeb\ProteriaWeb\bin\Debug\ProteriaWeb.dll]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1006" name="ProteriaWeb.dll" fullname="D:/Others/Remote_Projects/PoteriaWeb/ProteriaWeb_July29/ProteriaWeb/ProteriaWeb/bin/Debug/ProteriaWeb.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2018-07-30 10:38:44Z" end-time="2018-07-30 10:39:48Z" duration="63.924042" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299" platform="Win32NT" cwd="D:\Others\Remote_Projects\PoteriaWeb\ProteriaWeb_July29\ProteriaWeb\NUnit.Framework-3.10.1\bin\net40" machine-name="CRLHL-RAZAAEHS1" user="eraza" user-domain="CONTOURSOFTWARE" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="D:\Others\Remote_Projects\PoteriaWeb\ProteriaWeb_July29\ProteriaWeb\NUnit.Framework-3.10.1\bin\net40" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="13164" />
+      <property name="_APPDOMAIN" value="nunitlite-runner.exe" />
+    </properties>
+    <test-suite type="TestSuite" id="1007" name="ProteriaWeb" fullname="ProteriaWeb" runstate="Runnable" testcasecount="5" result="Passed" start-time="2018-07-30 10:38:44Z" end-time="2018-07-30 10:39:48Z" duration="63.910754" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="TestFixture" id="1000" name="ProteriaLogin" fullname="ProteriaWeb.ProteriaLogin" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" testcasecount="5" result="Passed" start-time="2018-07-30 10:38:44Z" end-time="2018-07-30 10:39:48Z" duration="63.905896" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-case id="1001" name="login_User" fullname="ProteriaWeb.ProteriaLogin.login_User" methodname="login_User" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="1207440545" result="Passed" start-time="2018-07-30 10:38:49Z" end-time="2018-07-30 10:38:57Z" duration="8.512224" asserts="1">
+          <properties>
+            <property name="Order" value="1" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="Post_Nord" fullname="ProteriaWeb.ProteriaLogin.Post_Nord" methodname="Post_Nord" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="2051013749" result="Passed" start-time="2018-07-30 10:38:57Z" end-time="2018-07-30 10:39:11Z" duration="13.493664" asserts="0">
+          <properties>
+            <property name="Order" value="2" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="NY_Bring" fullname="ProteriaWeb.ProteriaLogin.NY_Bring" methodname="NY_Bring" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="1099114342" result="Passed" start-time="2018-07-30 10:39:11Z" end-time="2018-07-30 10:39:25Z" duration="14.515620" asserts="0">
+          <properties>
+            <property name="Order" value="3" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="NY_Brevetikett" fullname="ProteriaWeb.ProteriaLogin.NY_Brevetikett" methodname="NY_Brevetikett" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="727819729" result="Passed" start-time="2018-07-30 10:39:25Z" end-time="2018-07-30 10:39:44Z" duration="19.044458" asserts="0">
+          <properties>
+            <property name="Order" value="4" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="logout_User" fullname="ProteriaWeb.ProteriaLogin.logout_User" methodname="logout_User" classname="ProteriaWeb.ProteriaLogin" runstate="Runnable" seed="173689625" result="Passed" start-time="2018-07-30 10:39:44Z" end-time="2018-07-30 10:39:46Z" duration="1.372170" asserts="1">
+          <properties>
+            <property name="Order" value="5" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

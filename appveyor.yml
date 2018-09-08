@@ -1,0 +1,22 @@
+image: Visual Studio 2017
+environment:
+  matrix:
+    - MY_VAR: value1
+cache:
+  - packages -> **\packages.config  # preserve "packages" directory in the root of build folder but will reset it if packages.config is modified
+build:
+  parallel: true                  # enable MSBuild parallel builds
+  project: ProteriaWeb.sln     # path to Visual Studio solution or project
+  publish_wap: true               # package Web Application Projects (WAP) for Web Deploy
+  publish_wap_xcopy: true         # package Web Application Projects (WAP) for XCopy deployment
+  publish_azure: true             # package Azure Cloud Service projects and push to artifacts
+  publish_nuget: true             # package projects with .nuspec files and push to artifacts
+  publish_nuget_symbols: true     # generate and publish NuGet symbol packages
+  include_nuget_references: true  # add -IncludeReferencedProjects option while packaging NuGet artifacts  
+test:
+  # only assemblies to test
+  assemblies:
+    only:      
+      - ProteriaWeb.dll
+  on_finish:
+  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
